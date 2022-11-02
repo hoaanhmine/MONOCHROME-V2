@@ -1,0 +1,73 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Silver Spawn Full",
+			"indices": [
+				15,
+				14,
+				13,
+				12,
+				11,
+				10,
+				9,
+				8,
+				7,
+				6,
+				5,
+				4,
+				3,
+				2,
+				1,
+				0
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Full Silver Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Full Silver Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gold/Gold_fadeOut",
+	"position": [
+		-10,
+		40
+	],
+	"healthicon": "gold",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-207,
+		-110
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

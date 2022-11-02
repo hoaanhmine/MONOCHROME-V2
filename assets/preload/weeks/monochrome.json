@@ -1,0 +1,31 @@
+{
+	"storyName": "berserk",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "1",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"monochrome",
+			"gold",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Custom Week"
+}
