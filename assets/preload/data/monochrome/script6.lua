@@ -1,10 +1,10 @@
 function onCreatePost()
-    makeLuaSprite('O','Jumpscares/Gold',-290,-200);
+    makeLuaSprite('O','jumpscares/Gold',-290,-200);
     setObjectCamera('O','hud');
     scaleObject('O',0.35, 0.35)
     setScrollFactor('O',0,0);
     setProperty('O.alpha', 1);
-    makeLuaSprite('1','Jumpscares/GoldAlt',-290,-200);
+    makeLuaSprite('1','jumpscares/GoldAlt',-290,-200);
     setObjectCamera('1','hud');
     scaleObject('1',0.35, 0.35)
     setScrollFactor('1',0,0);
@@ -15,7 +15,7 @@ function onEvent(name, value1, value2)
     if name == "Jumpscare" then
     choose = tonumber(value1);
 	if (choose == 0) then
-    makeLuaSprite('O','Jumpscares/Gold',-290,-200);
+    makeLuaSprite('O','jumpscares/Gold',-290,-200);
     setObjectCamera('O','hud');
     scaleObject('O',0.35, 0.35)
     setScrollFactor('O',0,0);
@@ -24,7 +24,7 @@ function onEvent(name, value1, value2)
 end
     choose = tonumber(value1);
 	if (choose == 1) then
-	makeLuaSprite('1','Jumpscares/GoldAlt',-290,-200);
+	makeLuaSprite('1','jumpscares/GoldAlt',-290,-200);
     setObjectCamera('1','hud');
     scaleObject('1',0.35, 0.35)
     setScrollFactor('1',0,0);
